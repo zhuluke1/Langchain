@@ -1,0 +1,9 @@
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+LANGCHAIN_API_KEY="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"
+LANGCHAIN_PROJECT="pr-enchanted-invite-23"
+
+from langchain_openai import ChatOpenAI
+
+llm = ChatOpenAI()
+llm.invoke("Hello, world!")
